@@ -187,10 +187,33 @@ nav {
   color: #e02c6d;
   text-decoration: none;
 }
+/* ============== featured product =============== */
+.featured-product {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 100px;
+  justify-items: center;
+  align-items: center;
+}
+.featured-product-title {
+  font-size: 38px;
+  font-weight: 700;
+}
+.featured-product-description {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 15px 0;
+}
+.featured-product-right-item img {
+  width: 100%;
+  height: 270px;
+  border-radius: 7px;
+}
 /* ============== Footer ============= */
 footer {
   height: 180px;
   background-color: #0a0826;
+  margin-top: 50px;
 }
 .footer-text {
   color: #fff;

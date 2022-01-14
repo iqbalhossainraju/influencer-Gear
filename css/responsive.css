@@ -21,10 +21,14 @@
     transform: translateY(0px);
   }
   .banner,
-  .popular-collection {
+  .popular-collection,
+  .featured-product {
     grid-template-columns: repeat(1, 1fr);
   }
   .variable-site-logo {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .featured-product-right-item {
+    padding: 40px 0;
   }
 }
