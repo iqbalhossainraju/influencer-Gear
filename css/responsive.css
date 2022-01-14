@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .nav-toggler-icon {
     display: block;
   }
@@ -19,5 +19,12 @@
   }
   #nav-toggler:checked ~ .navigation {
     transform: translateY(0px);
+  }
+  .banner,
+  .popular-collection {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .variable-site-logo {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
