@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+  .nav-toggler-icon {
+    display: block;
+  }
+  .navigation {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px 0;
+    transform: translateY(-330px);
+    transition: 0.5s ease-in-out;
+  }
+  .navigation li a {
+    color: #121212;
+  }
+  #nav-toggler:checked ~ .navigation {
+    transform: translateY(0px);
+  }
+}
