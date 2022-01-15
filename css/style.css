@@ -41,6 +41,13 @@ body {
   text-align: center;
   padding: 80px 0;
 }
+h1,
+h2,
+h3,
+h4,
+p {
+  color: #3a3a3a;
+}
 /*==========  Navbar ========== */
 nav {
   display: flex;
@@ -97,13 +104,13 @@ nav {
 }
 .banner-left h1 {
   font-size: 52px;
+  color: #3a3a3a;
   font-weight: 700;
-  color: rgb(0, 0, 0);
 }
 .banner-left p {
   font-size: 16px;
+  color: #3a3a3a;
   font-weight: 600;
-  color: rgb(0, 0, 0);
   line-height: 1.5;
   margin: 20px 0;
 }
@@ -214,6 +221,10 @@ footer {
   height: 180px;
   background-color: #0a0826;
   margin-top: 50px;
+}
+.footer-site-title,
+.copyright-text {
+  color: #fff;
 }
 .footer-text {
   color: #fff;
